@@ -1,19 +1,20 @@
 package com.chumore.product.model;
 
 public class ProductVO {
-	private Integer prdId;
-	private String prdName;
-	public Integer getPrdId() {
-		return prdId;
+	private  Integer productId;
+	private String productName;
+	
+	public Integer getProductId() {
+		return productId;
 	}
-	public void setPrdId(Integer prdId) {
-		this.prdId = prdId;
+	public void setProductId(Integer productId) {
+		this.productId = productId;
 	}
-	public String getPrdName() {
-		return prdName;
+	public String getProductName() {
+		return productName;
 	}
-	public void setPrdName(String prdName) {
-		this.prdName = prdName;
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 	
 	
